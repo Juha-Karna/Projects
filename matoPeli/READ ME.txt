@@ -1,0 +1,3 @@
+Peli toimii vain serverissä, eli jos et ossa itse localhost niin 
+
+tässä linkki http://matopeli.42web.io/?i=1
