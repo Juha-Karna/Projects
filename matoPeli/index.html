@@ -22,7 +22,11 @@
             height: 100vmin;
             display: grid;
             grid-template-rows: repeat(21, 1fr); 
-            grid-template-columns: repeat(21, 1fr); 
+            grid-template-columns: repeat(21, 1fr);
+        }
+        
+        #score {
+            font-size: 20px;
         }
 
         .snake {
@@ -34,10 +38,23 @@
             background-color: yellow;
             border: .25vmin solid black;
         }
+
+        .header {
+            text-align: center;
+            padding: 10px;
+        }
     </style>
     <script src="peli.js" defer type="module"></script>
 </head>
-<body>
+<body> 
+    <div class="header">
+        <h1><u>Ohjeet</u></h1>
+        <p>Matoa Ohjataan nuolinäppäimillä</p>
+        <h1>→ ↑ ↓ ←</h1>
+        <p>Kun kuolet paina "OK" to restart</p>
+        <h1>score</h1>
+        <div id="score">0</div>
+    </div>
     <div id="game-board"></div>
 </body>
 </html>
