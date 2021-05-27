@@ -1,4 +1,4 @@
-Peli toimii vain serverissä, eli jos et osaa itse localhost niin 
+Peli toimii vain serverissä (koska käytin import,export), eli jos et osaa itse localhost niin 
 
 tässä linkki http://matopeli.42web.io/?i=1
 
