@@ -6,14 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mato</title>
     <style>
+        * {
+         box-sizing: border-box;
+        }
         body {
-            height: 100vh;
-            width: 100vw;
+            background-image: url("code.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+        }
+
+        .flex-box{
             display: flex;
             justify-content: center;
             align-items: center;
             margin: 0;
-            background-color: black;
+            flex-wrap: wrap;
         }
 
         #game-board {
@@ -26,7 +35,7 @@
         }
         
         #score {
-            font-size: 20px;
+            font-size: 2.5vw;
         }
 
         .snake {
@@ -42,19 +51,27 @@
         .header {
             text-align: center;
             padding: 10px;
+            font-size: 2vw;
+            flex: 1;
         }
     </style>
     <script src="peli.js" defer type="module"></script>
 </head>
 <body> 
-    <div class="header">
-        <h1><u>Ohjeet</u></h1>
-        <p>Matoa Ohjataan nuolinäppäimillä</p>
-        <h1>→ ↑ ↓ ←</h1>
-        <p>Kun kuolet paina "OK" to restart</p>
-        <h1>score</h1>
-        <div id="score">0</div>
+    
+    <div class="flex-box">
+        
+        <div id="game-board"></div>
+        
+        <div class="header">
+            <h1><u>Ohjeet</u></h1>
+            <p>Matoa Ohjataan nuolinäppäimillä</p>
+            <h1>→ ↑ ↓ ←</h1>
+            <p>Kun kuolet paina "OK" to restart</p>
+            <p>Keltainen on ruoka ja sininen on mato</p>
+            <h1>score</h1>
+            <div id="score">0</div>
+        </div>
     </div>
-    <div id="game-board"></div>
 </body>
 </html>
