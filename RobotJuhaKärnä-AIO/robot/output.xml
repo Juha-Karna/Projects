@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.6 on win32)" generated="20221006 17:17:05.745" rpa="false" schemaversion="3">
+<suite id="s1" name="Addtocart" source="c:\pythonProjects\robotRyhm\addtocart.robot">
+<test id="s1-t1" name="Valid Added To Cart" line="6">
+<kw name="Open Browser To Product Page" library="resourceAddToCart">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${CART URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221006 17:17:05.899" level="INFO">Opening browser 'Chrome' to base url 'https://www.verkkokauppa.com/fi/product/725093/Asus-GeForce-TUF-RTX3080-O10G-V2-GAMING-naytonohjain'.</msg>
+<status status="PASS" starttime="20221006 17:17:05.899" endtime="20221006 17:17:09.317"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221006 17:17:09.317" endtime="20221006 17:17:09.429"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>${DELAY}</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20221006 17:17:09.430" endtime="20221006 17:17:09.430"/>
+</kw>
+<kw name="Product Page Should Be Open" library="resourceAddToCart">
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>Asus GeForce TUF-RTX3080-O10G-V2-GAMING -näytönohjain – Verkkokauppa.com</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<msg timestamp="20221006 17:17:10.138" level="INFO">Page title is 'Asus GeForce TUF-RTX3080-O10G-V2-GAMING -näytönohjain – Verkkokauppa.com'.</msg>
+<status status="PASS" starttime="20221006 17:17:09.431" endtime="20221006 17:17:10.138"/>
+</kw>
+<status status="PASS" starttime="20221006 17:17:09.430" endtime="20221006 17:17:10.138"/>
+</kw>
+<status status="PASS" starttime="20221006 17:17:05.898" endtime="20221006 17:17:10.138"/>
+</kw>
+<kw name="Add To Cart" library="resourceAddToCart">
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>//*[@id="main"]/section/aside/div[2]/div[2]/div[1]/div[2]/button[1]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221006 17:17:10.140" level="INFO">Clicking button '//*[@id="main"]/section/aside/div[2]/div[2]/div[1]/div[2]/button[1]'.</msg>
+<status status="PASS" starttime="20221006 17:17:10.139" endtime="20221006 17:17:13.753"/>
+</kw>
+<status status="PASS" starttime="20221006 17:17:10.139" endtime="20221006 17:17:13.753"/>
+</kw>
+<kw name="Check If Product Is in Cart" library="resourceAddToCart">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="checkout"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221006 17:17:13.754" level="INFO">Clicking element '//*[@id="checkout"]'.</msg>
+<status status="PASS" starttime="20221006 17:17:13.754" endtime="20221006 17:17:15.241"/>
+</kw>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<arg>//*[@id="main"]/div[2]/section/div[1]/div/a</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<msg timestamp="20221006 17:17:15.955" level="INFO">Current page contains element '//*[@id="main"]/div[2]/section/div[1]/div/a'.</msg>
+<status status="PASS" starttime="20221006 17:17:15.241" endtime="20221006 17:17:15.955"/>
+</kw>
+<status status="PASS" starttime="20221006 17:17:13.753" endtime="20221006 17:17:15.955"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221006 17:17:15.956" endtime="20221006 17:17:18.723"/>
+</kw>
+<status status="PASS" starttime="20221006 17:17:05.898" endtime="20221006 17:17:18.723"/>
+</test>
+<doc>A test with a single test to check if item was added to cart successfully. Juha Kärnä</doc>
+<status status="PASS" starttime="20221006 17:17:05.749" endtime="20221006 17:17:18.724"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Addtocart">Addtocart</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
