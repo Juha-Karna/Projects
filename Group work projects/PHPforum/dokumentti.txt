@@ -1,0 +1,25 @@
+Webohjelmointi projekti - Tuukka Kotilainen, Willhardt Räsänen, Juha Kärnä
+
+Sovellus on foorumin tyylinen web sivu mihin käyttäjät kirjoittaa jotain tekstiä formeihin ja tulostaa sivulle näkyville muille käyttäjille.
+
+Työ koostuu CSS, HTML ja PHP kielistä ja myös mukana tietenkin MySQL tietokanta puolena.
+
+Juha on tekemässä PHP tiedostoja, Tuukka HTML sivuja ja niille tyylit CSS tiedostolla ja Willhardt github repositoryn, shelliin yhteyden, 
+MySQL tietokannan ja tätä dokumenttia, näin aluksi.
+
+Loppupäässä työssä Willhardt on tehnyt forum PHP sivun missä voi kirjoittaa jotain ja se tulostaa sivulle kaikki kirjoitetut asiat.
+
+Tuukka on saanut yhdisteltyä CSS tyyliä PHP sivuihin onnistuneesti.
+
+Juhan PHP tiedostot on kanssa toiminnassa kun tehtiin users tietokanta rekistöintiä ja kirjautumista varten,
+foorumilla on kanssa postaus tietokanta millä saadaan luettua tekstit.
+
+Shellissä ainoa ongelma oli se kun ei ollut "oikeuksia" tehdä uuttaa tietokantaa shellin phpMyAdminissa mikä oli aika outoa,
+mutta saatiin tehtyä kumminkin valmiin wordpress tietokannan alle oleelliset pöydät tarvittaville tiedoille.
+
+Homma toimii kuin pitää shell.hamk sivullakin eli hyvä juttu.
+
+Mitä kukin tehnyt:
+Juha : login.php | register.php | logout.php | reset-password.php
+Tuukka: style.css | welcome.php | header.php
+Willhardt: forum.php | foorumi.php | luefoorumi.php

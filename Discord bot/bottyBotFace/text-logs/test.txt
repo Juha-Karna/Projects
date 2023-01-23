@@ -1,0 +1,59 @@
+bot-testing-groundz || Milk Chan#3720 || 1
+bot-testing-groundz || Milk Chan#3720 || 2
+bot-testing-groundz || Milk Chan#3720 || 3
+bot-testing-groundz || Milk Chan#3720 || yeaaaaaaaaaaaaa
+bot-testing-groundz || Milk Chan#3720 || boiiiiiii
+bot-testing-groundz || Milk Chan#3720 || !purge 20
+bot-testing-groundz || Milk Chan#3720 || !purge 10
+bot-testing-groundz || Milk Chan#3720 || !purge 10
+yleinen || Milk Chan#3720 || botti updateja. Sain ton purge komennon sillee et voi poistaa pelkästään komennossa mainitun henkilön viestit. Also vaihoin ton proffa kuvaa mutta se ei päivity midä viddua
+bot-testing-groundz || Milk Chan#3720 || a
+bot-testing-groundz || Milk Chan#3720 || !purge 1
+bot-testing-groundz || Milk Chan#3720 || !coin
+bot-testing-groundz || bottyBotFace#3360 || tails :coin:
+bot-testing-groundz || Milk Chan#3720 || !8ball is water wet?
+bot-testing-groundz || bottyBotFace#3360 || 8ball said: Outlook good desu~~
+bot-testing-groundz || Milk Chan#3720 || moi
+bot-testing-groundz || bottyBotFace#3360 || <@351966069768060929>, Moro, Miten menee?
+bot-testing-groundz || Milk Chan#3720 || !ping
+bot-testing-groundz || bottyBotFace#3360 || Pong.
+bot-testing-groundz || Milk Chan#3720 || !purge <@!351966069768060929> 1
+bot-testing-groundz || Milk Chan#3720 || !say my life be like ooooooooooooo aaaaaaaa
+bot-testing-groundz || bottyBotFace#3360 || my life be like ooooooooooooo aaaaaaaa
+bot-testing-groundz || Milk Chan#3720 || 
+bot-testing-groundz || Milk Chan#3720 || !purge 1
+bot-testing-groundz || Milk Chan#3720 || moi
+bot-testing-groundz || bottyBotFace#3360 || <@351966069768060929>, Moro, Miten menee?
+bot-testing-groundz || Milk Chan#3720 || !coin
+bot-testing-groundz || bottyBotFace#3360 || tails :coin:
+bot-testing-groundz || Milk Chan#3720 || !8ball am i cool?
+bot-testing-groundz || bottyBotFace#3360 || 8ball said: Outlook good desu~~
+bot-testing-groundz || Milk Chan#3720 || good bot
+bot-testing-groundz || bottyBotFace#3360 || (//∀//) t-t-thanks ( 〃．．)
+bot-testing-groundz || Milk Chan#3720 || !say testing 1 2 3 4
+bot-testing-groundz || bottyBotFace#3360 || testing 1 2 3 4
+bot-testing-groundz || Milk Chan#3720 || testi testicles
+bot-testing-groundz || Milk Chan#3720 || !purge kikkelis 1
+bot-testing-groundz || bottyBotFace#3360 || ᕙ(⇀‸↼‶)ᕗ anna KÄYTTÄJÄNIMI ja NUMERO.ᕙ(⇀‸↼‶)ᕗ 
+ Usage: !purge @user <amount>
+bot-testing-groundz || Milk Chan#3720 || a
+bot-testing-groundz || Milk Chan#3720 || a
+bot-testing-groundz || Milk Chan#3720 || !purge 1
+bot-testing-groundz || bottyBotFace#3360 || ᕙ(⇀‸↼‶)ᕗ anna KÄYTTÄJÄNIMI ja NUMERO.ᕙ(⇀‸↼‶)ᕗ 
+ Usage: !purge @user <amount>
+ass || Milk Man_#3720 || !say hellooo
+ass || bottyBotFace#3360 || hellooo
+ass || Milk Man_#3720 || testing
+ass || bottyBotFace#3360 || <@351966069768060929>, test 0
+ass || bottyBotFace#3360 || <@351966069768060929>, test 1
+ass || bottyBotFace#3360 || <@351966069768060929>, test 2
+ass || bottyBotFace#3360 || <@351966069768060929>, test 3
+ass || bottyBotFace#3360 || <@351966069768060929>, test 4
+ass || bottyBotFace#3360 || <@351966069768060929>, test 5
+ass || bottyBotFace#3360 || <@351966069768060929>, test 6
+ass || bottyBotFace#3360 || <@351966069768060929>, test 7
+ass || bottyBotFace#3360 || <@351966069768060929>, test 8
+ass || bottyBotFace#3360 || <@351966069768060929>, test 9
+ass || bottyBotFace#3360 || <@351966069768060929>, test 10
+ass || Milk Man_#3720 || !purge <@!834001706064936980> 11
+ass || Milk Man_#3720 || 

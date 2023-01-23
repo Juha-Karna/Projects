@@ -1,0 +1,30 @@
+.kontti {
+    display:flex;
+    color:white;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    text-align:center;
+}
+.kontti div {
+    /* border:1px #ccc solid; */
+    padding: 10px;
+}
+.lomake {
+    flex-basis:100%;
+}
+
+input {
+    margin: 15px 0;
+  font-size: 16px;
+  padding: 10px;
+  width: 250px;
+  border: 2px solid rgb(182, 182, 182);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  outline: none;
+}

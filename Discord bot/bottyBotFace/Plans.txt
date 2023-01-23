@@ -1,0 +1,15 @@
+Text Log
+
+Console logaa käyttäjän viestit
+
+Kopioi käyttäjän viestit (plus nimi ja kanava) teksti tiedostoon päivän päätyttyä.
+Nimeten tekstitiedoston: <päivämäärä> + 'text-log'
+
+Clear console
+
+kun on 7 tekstitiedostoa poistaa nämä
+
+päivämäärä muuttuja <päivämäärä>
+
+kun luo tiedoston <päivämäärä> niin logaaja alkaa tallentaa tiedostoon <päivämäärä>
+
