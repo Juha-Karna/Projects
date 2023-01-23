@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arvauspeli</title>
+    <script src="arvauspeli.js"></script>
+    <script src="jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="row">
+        <div class="main">
+            
+            <h1>Arvauspeli</h1>
+            <p><b><u>Ohjeet</u></b></p>
+            <p>-Jos saat 3 pistettä voitat pelin (oikea arvaus = +1 piste), varoitus kun vastaat oikein niin vastaus siirtyy :)</p>
+            <p>-Sinulla on 9 yritystä vastata, jos vastaat väärin 9 kertaa game over (vastaus löytyy consolista, peli toimii myös mobiililla.)</p>
+            
+            <div id="gameBoard"></div>
+            
+            <div class="piste">
+            <p>score</p>
+            <div id="score">0</div>
+            </div>
+            
+            <div class="xarvaus">
+            <p>arvaukset</p>
+            <div id="guess">0</div>
+            </div>
+    </div>
+        </div>
+</body>
+</html>

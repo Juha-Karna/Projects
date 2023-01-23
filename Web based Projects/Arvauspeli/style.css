@@ -1,0 +1,97 @@
+body
+{
+  background-image: url("./view.jpg");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  margin: 0;
+}
+.hidden
+{
+  display: none;
+}
+
+.nappi {
+    background-color: aqua;
+    padding: 30px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 4px;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    align-items: center;
+    border: 1px solid black;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap
+}
+
+.main {
+  flex: 100%;
+  background-color: #CCC;
+  padding: 20px;
+  margin-left: 30vw;
+  margin-right: 30vw;
+
+  position: absolute;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  overflow: hidden;
+}
+
+#gameBoard {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.piste {
+  float: right;
+  margin-right: 13vw;
+}
+
+.xarvaus {
+  float: left;
+  margin-left: 12vw;
+}
+
+/* Mobiili */
+@media only screen and (max-width: 500px) {
+  .main {
+  flex: 100%;
+  background-color: #CCC;
+  padding: 20px;
+  margin: 0;
+  font-size: 17px;
+  }
+
+  .row {
+    flex-direction: column;
+    }
+  p {
+    flex-direction: column;
+    }
+
+  .nappi {
+    font-size: 15px;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  body {
+    margin: 0;
+  }
+  .piste {
+    margin: 0;
+  }
+
+  .xarvaus {
+    margin: 0;
+  }
+}

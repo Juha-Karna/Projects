@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="memory.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="muistipeli.css">
+    <title>Muistipeli</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  </head>
+  <ul>
+    <li><a href="index.html">ETUSIVU</a></li>
+    <li><a class="active" href="muistipeli2.html">MUISTIPELI</a></li>
+  </ul>
+  <body>
+    <!-- PELI ALUE -->
+    <div id="mem-game"></div>
+      
+    <div class="score-container">
+    <!-- PISTEET -->
+    <div class="pisteet">
+    <p>score</p>
+    <div id="score">0</div>
+    </div>
+    <!-- TOTAL ROUNDS WON -->
+    <div class="pisteet">
+    <p>Voitetut keirrokset</p>
+    <div id="rounds">0</div>
+    </div>
+    <!-- KERRAT -->
+    <div class="pisteet">
+      <p>Väärät Yritykset</p>
+      <div id="kerrat">0</div>
+    </div>
+    </div>
+  <div class="ohjeet">
+  <p><b>Ohjeet</b></p>
+  <p>joka viidennes väärä "move" -1 piste</p>
+  <p>Jokainen oikea vastaus +1 piste</p>
+  <p>Jokainen voitettu kierros +1 voitettu kierros</p>
+  </div>
+  </body>
+</html>

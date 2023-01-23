@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    /* overflow-x: hidden; */
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+/* Navbar made by Juha Kärnä */
+
+.nav-item {
+    padding: 15px 4px;
+}
+
+
+ul {
+    margin-right: 45vh;
+    font-size: 1.9vh;
+    font-family: 'Open Sans', sans-serif;
+  }
+li a {
+    text-align: center;
+}
+.nav-link {
+    margin-right: 2vh;
+}
+
+.navbar-brand {
+    margin-left: 35vh;
+}
+
+
+
+/* Header by Juha Kärnä */
+.header {
+  padding: 15vw;
+  background-image: url("../images/isCoffeeGood4u.jpg");
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* intro and hull made by Juha Kärnä*/
+.intro {
+    background-color: #f5debb;
+    flex: 100%;
+    padding: 20px;
+    font-size: 2.4vh;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 5.5%;
+  }
+
+  .introText {
+    margin-left: 40%;
+    padding: 20px;
+}
+
+.hull {
+    background-color: #f5d5a6;
+    padding: 20px;
+    font-size: 2.4vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+
+  }
+.hull > h1 {
+  display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+      width: 50%;
+}
+  .hull > div {
+    width: 100%;
+  }
+.hull2{
+  background-color: #f5d5a6;
+    padding: 20px;
+    font-size: 2.4vh;
+    display: flex;
+    flex-direction: row;
+}
+  
+.hull2 > div {
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* mobile made by Juha Kärnä */
+@media only screen and (max-width: 500px) {
+  .header {
+    padding: 25vh;
+    background-size: cover;
+  }
+  .navbar-brand {
+    margin: 0;
+  }
+  .nav-link {
+   margin: 0;
+  }
+
+ .intro > img {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+  }
+  
+  ul {
+    margin: 0;
+  }
+  .introText {
+    margin-left: 0;
+    margin-top: 3vh;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.login {
+    flex: 100%;
+    background-color: #CCC;
+    padding: 20px;
+    margin-left: 30vw;
+	margin-right: 30vw;
+    margin-top: 1vw;
+    position: absolute;
+}
+
+body {
+    margin: 0;
+    background-image: url("./view.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+h2 {
+    text-align: center;
+}
+
+form
+{
+  width: 40vw;
+  height: auto;
+  background-color: rgb(201, 201, 201);
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin-top: 30px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.button {
+    background-color: rgb(43, 128, 226);
+    padding: 14px 20px;
+    margin: 8px 8px;
+    border: 1px solid black;
+    color: white;
+}
+
+.button:hover {
+    background-color: #C6E9FF;
+            border-top: 2px solid#000000;
+            border-right: 2px solid#000000;
+            border-left: 2px solid#000000;
+            border-bottom: 2px solid#000000;
+            -webkit-transition: background-color 1s ease-out;
+            -moz-transition: background-color 1s ease-out;
+            -o-transition: background-color 1s ease-out;
+            transition: background-color 1s ease-out;
+        color: black;
+}
+
+.username {
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.password {
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;  
+}

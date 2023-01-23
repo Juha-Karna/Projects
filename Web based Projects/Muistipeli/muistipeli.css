@@ -1,0 +1,96 @@
+ul {
+    list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+   }
+   li {
+     float: left;
+   }
+   
+   li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+   
+   li a:hover {
+     background-color: #111;
+   }
+
+   body {
+       background-color: rgb(214, 120, 140);
+       margin: 0;
+       background-image: url("./grey.png");
+   }
+ h1 {
+     font-size: 5rem;
+     font-family: sans-serif;
+     color: #ffffff;
+ }
+
+ h2 {
+     font-size: 2rem;
+     font-family: sans-serif;
+     color: #ffffff;
+ }
+
+ p {
+    color: #ffffff;
+ }
+
+
+ /* PELIALUE */
+#mem-game {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    max-width: 510px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  /* PISTEYTYKSIEN JA OHJEEN KESKITYS */
+  .score-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .score-container > .pisteet {
+    margin: 20px;
+    color: #ffffff;
+    font-size: 1.1vw;
+    font-family: 'Merriweather', serif;
+  }
+  .ohjeet {
+    margin-left: 40%;
+    margin-right: 40%;
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    font-size: 1.1vw;
+  }
+  /* PISTEET JA VOITETUT */
+  .pisteet {text-align: center;}
+  .voitetut {text-align: center;}
+
+  
+  /* KORTIT */
+  .mem-card {
+    padding: 10px;
+    cursor: pointer;
+    background: #e5e5e5;
+  }
+  /* AVATUT, OIKEA, VÄÄRÄ KORTIT */
+  .mem-card.open { background: #fce072; }
+  .mem-card.right { background: #62ff7c; }
+  .mem-card.wrong { background: #fd6d6d; }
+  /* KORTTIEN KUVAT SAMANKOKOISEKSI */
+  img {
+    max-height: 100px;
+    max-width: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    align-items: center;
+  }

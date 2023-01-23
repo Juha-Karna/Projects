@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tyyli.css">
+    <title>Document</title>
+    <script src="login.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="login">
+            <h2>Kirjautumislomake</h2>
+            <form class="" action="" method="POST" onsubmit="return tarkasta(this)">
+                <table>
+                   <tr> 
+                    <td><b>Anna käyttäjänimi</b></td>
+                   </tr>
+                   <tr>
+                    <td><input class="username" type="text" name="username" /></td>
+
+                    <tr>
+                        <tr>
+                        <td><b>Salasana:</b></td>
+                    </tr>
+                        <td><input class="password" type="password" name="salasana" value="" /></td>
+                      </tr>
+                    </tr>
+                </table>
+
+                <h4>Sukupuoli</h4>
+                <select class="" name="">
+
+                <option value="Nainen">Nainen</option>
+                <option value="Mies">Mies</option>
+                <option value="Muu">Muu</option>
+
+
+                <select><br>
+
+
+                <h4>Oletko tykännyt etä tunneista?</h4>
+
+
+
+                <input type="radio" name="yes" value="Kyllä">kyllä<br>
+                <input type="radio" name="no" value="En ole">En ole<br>
+                <input type="radio" name="En osaa sanoa" value="En osaa sanoa">En osaa sanoa<br>
+                <h4>Onko etäopiskelu vaikuttanut opintoihisi?</h4>
+                <input type="radio" name="Kyllä" value="Kyllä">Kyllä<br>
+                <input type="radio" name="Ei ole" value="Ei ole">Ei ole<br>
+                <input type="radio" name="En osaa sanoa" value="En osaa sanoa">En osaa sanoa<br>
+
+
+                <h4>Ja tähän voit jättää opettajalle jonkinlaisen kysymyksen</h4>
+
+                <textarea name="Viestikenttä" rows="8" cols="50"></textarea><br>
+                <p>
+                    <input class="button" type="submit" name="submit" value="Lähetä Lomake">
+                </p>
+                </form>       
+        </div>
+
+    </div>
+</body>
+</html>

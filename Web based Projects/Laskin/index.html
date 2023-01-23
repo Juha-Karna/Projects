@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laskin</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <script src="./js.js"></script>
+</head>
+<body>
+    <div class="calculator-grid">
+        
+    <div class="Output">
+        <tr>
+            <td><p id='näyttö'></p></td>
+          </tr>
+    </div>
+    
+    <div class="laskin-keys">
+    <button name="AC" id="reset"  onclick = "reset()">AC</button>
+    <button name="del" id="poisto"  onclick = "pyyhi()">DEL</button>
+    <button name="/" id="jako"  onclick = "nappi('/')">/</button>
+    <button name="%" id="pros"  onclick = "nappi('%')">%</button>
+    <button name="1" id="1"  onclick = "nappi('1')">1</button>
+    <button name="2" id="2"  onclick = "nappi('2')">2</button>
+    <button name="3" id="3"  onclick = "nappi('3')">3</button>
+    <button name="*" id="kerto"  onclick = "nappi('*')">*</button>
+    <button name="4" id="4"  onclick = "nappi('4')">4</button>
+    <button name="5" id="5"  onclick = "nappi('5')">5</button>
+    <button name="6" id="6"  onclick = "nappi('6')">6</button>
+    <button name="+" id="plus"  onclick = "nappi('+')">+</button>
+    <button name="7" id="7"  onclick = "nappi('7')">7</button>
+    <button name="8" id="8"  onclick = "nappi('8')">8</button>
+    <button name="9" id="9"  onclick = "nappi('9')">9</button>
+    <button name="-" id="minus"  onclick = "nappi('-')">-</button>
+    <button name="." id="pilkku"  onclick = "nappi('.')">,</button>
+    <button name="0" id="0"  onclick = "nappi('0')">0</button>
+    <button name="=" id="yhtSuuri"  onclick = "laske()">=</button>
+    </div>
+ </div>
+</body>
+</html>
