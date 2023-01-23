@@ -1,0 +1,331 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table {
+    height: 100%;
+    width: 100%;
+}
+
+.email {
+  color: white;
+}
+
+/* --------navbar-------- */
+.navbar {
+    width: 100%;
+    position: fixed;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #191818;
+  }
+  
+  li {
+    float: left;
+  }
+  #menu-items {
+    margin-left: 50vw;
+  }
+  .logo {
+    margin-left: 10vw;
+  }
+  .logoA {
+    pointer-events: none;
+    font-size: 0.9vw;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    /* padding: 29px 18px; */
+    padding: 34px 18px;
+    text-decoration: none;
+    font-size: 0.8vw;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    
+  }
+  
+  
+  li a:hover {
+    background-color: #d02424;
+    color: white;
+    -webkit-transition: background-color 1s ease-out;
+            -moz-transition: background-color 1s ease-out;
+            -o-transition: background-color 1s ease-out;
+            transition: background-color 1s ease-out;
+  }
+
+  a.active {
+    background-color: #191818;
+    color: #de0103;
+  }
+
+ #vaihdaKieli {
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 34px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #191818;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1vw;
+  letter-spacing: 1px;
+
+  }
+
+  #vaihdaKieli:hover {
+    background-color: #d02424;
+    color: white;
+    -webkit-transition: background-color 1s ease-out;
+            -moz-transition: background-color 1s ease-out;
+            -o-transition: background-color 1s ease-out;
+            transition: background-color 1s ease-out;
+  }
+  li a:hover, .dropdown:hover #vaihdaKieli {
+    background-color: #d02424;
+  }
+
+  li.dropdown {
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* right: 0; */
+    background-color: #191818;
+    min-width: 12.7%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content .lang {
+    color: white;
+    background-color: #191818;
+    padding: 12px 16px;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    display: block;
+  }
+  .dropdown-content .lang:hover {
+    background-color: #d02424;
+    color: white;
+    -webkit-transition: background-color 1s ease-out;
+            -moz-transition: background-color 1s ease-out;
+            -o-transition: background-color 1s ease-out;
+            transition: background-color 1s ease-out;
+  }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .icon {
+    display: none;
+}
+
+  /* -------header------- */
+
+   .header {
+    padding: 15vw;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    background-image: url("../kuvat/election.jfif");
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    background-position: 0 -3vw;
+    
+  } 
+
+  /* -------index intro,hull------- */
+  .intro {
+    background-color: #1c1e21;
+    color: white;
+    flex: 100%;
+    padding: 20px;
+    font-size: 2.4vh;
+
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+  }
+  .introText {
+      margin-left: 30%;
+      padding: 20px;
+      border-left: solid 1px white;
+  }
+  .hullText {
+    margin-left: 30%;
+    padding: 20px;
+    font-size: 2.4vh;
+    border-left: solid 1px white;
+  }
+  .toDo {
+      font-weight: bold;
+  }
+  .hull {
+    background-color: #191818;
+    color: white;
+    flex: 100%;
+    padding: 20px;
+    font-size: 2.4vh;
+
+  }
+
+  /* -------Social media - Contact us--------*/
+  .socialMedia {
+    background-color: #1c1e21;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+/* -------Ala osa eli copyrightit jne aka "footer"-------- */
+.footer {
+    padding: 2px;
+    text-align: left;
+    color: white;
+    background: #11151c;
+    font-size: 1.4vh;
+    text-align :right;
+    font-family: 'Open Sans', sans-serif;
+   
+  }
+.tekij� {
+    float: left;
+    margin-left: 5%;
+}
+.copiright {
+    float: right;
+    margin-right: 5%;
+}
+
+#eka {
+    float: left;
+}
+
+
+
+/*----------------- Mobiili-------------------- */
+
+@media only screen and (max-width: 500px) {
+        #menu-items {
+          
+          margin: 0;
+          display: none;
+          padding: 19px 48px;
+        }
+        .logo{
+          margin-right:35vw;
+          margin-left:0;
+        }
+        li a{
+          font-size: 2.3vw;
+        }
+        li {
+          width: 100%;
+        }
+        #vaihdaKieli {
+          font-size: 2.3vw;
+          width: 100%;
+        }
+        .icon {
+          background: #191818;
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 0;
+          margin-top: 2.4vw;
+          color: white;
+          font-size: 5vw;
+          text-align: center;
+        }
+        .navbar {
+          overflow: hidden;
+        }
+        .header {
+          background-position: 0 20vw;
+          /* padding-top: 20vw; */
+          background-size: contain;
+          background-attachment: fixed;
+          /* width: 100vw;
+          height: 40vh; */
+          margin:0;
+        }
+
+        .intro > img {
+            max-width: 100%;
+            min-width: 300px;
+            height: auto;
+            padding: 0;
+            justify-content: center;
+          }
+          .intro {
+            display: flex;
+            flex-direction: column;
+          }
+          .introText {
+            margin-left: 0;
+            margin-top: 3vh;
+          }
+        .hull > img {
+            max-width: 100%;
+            min-width: 300px;
+            height: auto;
+            padding: 0;
+          }
+        .hull {
+            display: flex;
+            flex-direction: column;
+          }
+}
