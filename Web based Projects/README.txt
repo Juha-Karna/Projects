@@ -1,4 +1,5 @@
-This file has all my web based projects in it brief description of them here more detailed in the respected files:
+This file has all my web based projects in it. Brief description of them here:
+
 Arvauspeli is a guessing game created with javascript html and css.
  
 Coffe shop website is a visual website frontpage created for a coffee shop.
