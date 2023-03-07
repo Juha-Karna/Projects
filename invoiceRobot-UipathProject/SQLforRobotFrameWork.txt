@@ -1,0 +1,35 @@
+select * from invoiceheader;
+select * from invoicerow;
+
+delete from invoiceheader;
+delete from invoicerow;
+
+Create table invoicerow (
+	invoicenumber INT NOT NULL,
+    rownumber INT NOT NULL,
+    description VARCHAR(100) NOT NULL,
+    quantity INT NULL,
+    unit VARCHAR(45) NULL,
+    unitprice DECIMAL(10,2) NULL,
+    vatpercent DECIMAL(10,2) NOT NULL,
+    vat DECIMAL (10,2) NOT NULL,
+    total DECIMAL (10,2) NOT NULL,
+    PRIMARY KEY (invoicenumber, rownumber))
+	ENGINE = InnoDB;
+
+
+Create table invoiceheader (
+	invoicenumber INT NOT NULL,
+	companyname varchar(45) DEFAULT NULL,
+  	companycode varchar(45) DEFAULT NULL,
+  	referencenumber varchar(45) DEFAULT NULL,
+  	invoicedate varchar(45) DEFAULT NULL,
+  	duedate varchar(45) DEFAULT NULL,
+  	bankaccountnumber varchar(45) DEFAULT NULL,
+  	amountexvat double DEFAULT NULL,
+  	vat double DEFAULT NULL,
+  	totalamount double DEFAULT NULL,
+  	InvoiceStatus_id varchar(45) DEFAULT NULL,
+  	comments varchar(45) DEFAULT NULL,
+  	PRIMARY KEY (invoicenumber)
+		ENGINE = InnoDB;
