@@ -1,3 +1,10 @@
+create database rpaproject;
+
+create user robotuser@localhost identified by 'password';
+grant all on rpaproject.* to robotuser@localhost;
+
+use rpaproject;
+
 select * from invoiceheader;
 select * from invoicerow;
 
